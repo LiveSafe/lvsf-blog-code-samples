@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+use_frameworks!
+
+def ws_pods
+
+  pod 'Alamofire', '~> 3.3'
+
+end
+
+target 'ProtocolOrientedNetworkingSample' do
+
+  ws_pods
+
+end
+
+target 'ProtocolOrientedNetworkingSampleTests' do
+  
+  ws_pods
+  
+end
+
+
